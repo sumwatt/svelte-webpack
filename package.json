@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server ./public/ --cors -o -c-1 --proxy",
     "build": "webpack --mode production",
-    "dev": "webpack-dev-server --open true --port 5000"
+    "dev": "webpack-dev-server --open --port 5000"
   }, 
   "keywords": [],
   "author": "",
